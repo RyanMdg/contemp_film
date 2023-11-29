@@ -7,16 +7,15 @@ function Traillervid() {
       <h1 className="glitch-text text-[#000] px-6 text-2xl uppercase bg-[#D70000] font-semibold mb-4">
         the INSURRECTION Official-trailer
       </h1>
-
-      <iframe
-        src="https://player.vimeo.com/video/889354525?h=11873636c0"
+      <video
+        className="rounded-md shadow-lg border-red-500"
         width="800"
         height="360"
-        frameborder="0"
-        allow="autoplay; fullscreen"
-        allowfullscreen
-        className="rounded-md shadow-lg border-red-500"
-      ></iframe>
+        controls
+      >
+        <source src="/TRAILER.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
       <article className=" grid gap-5 sm:grid-cols-2 lg:mx-[10rem] ">
         <p className="text-[#d9d9d9c8] mt-5 ps-10">
