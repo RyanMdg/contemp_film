@@ -22,8 +22,10 @@ const Navbar = () => {
   return (
     <nav className=" p-4">
       <div className="container mx-auto flex items-center justify-between">
-        <div className="text-[#d9d9d9]">
-          {/* <p className="text-lg font-bold uppercase">the Insurrection </p> */}
+        <div className="text-[#d9d9d9ce]">
+          <p className="text-lg font-bold uppercase">
+            CONTEMPORARY WORLD PETA{" "}
+          </p>
         </div>
         <div className="hidden md:flex space-x-4">
           <Link href="/">

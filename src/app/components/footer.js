@@ -2,8 +2,8 @@ import React from "react";
 
 function footer() {
   return (
-    <div className=" bg-[#d70000b6] max-sm:flex  flex-col items-center pt-5 mt-10">
-      <div className=" grid gap-4 sm:grid-cols-3 mx-4 py-3 text-center">
+    <div className=" bg-[#d70000b6] max-sm:flex  flex-col items-center pt-3 mt-10">
+      <div className=" grid gap-2 sm:grid-cols-3 mx-4 pt-2 text-center">
         <div className=" flex items-center justify-center">
           {" "}
           <i> A Performance task for contemporary world</i>
@@ -25,14 +25,11 @@ function footer() {
             Geekbar
           </span>{" "}
           <span className="m-2 uppercase font-semibold bg-black text-[#d9d9d9c8] px-2 py-1">
-            pastry vapor
-          </span>{" "}
-          <span className="m-2 uppercase font-semibold bg-black text-[#d9d9d9c8] px-2 py-1">
             relx
           </span>{" "}
         </div>
       </div>
-      <h1 className=" text-center pb-2 font-bold text-[.8rem] text-[#0000006b]">
+      <h1 className=" text-center py-1 font-bold text-[.8rem] text-[#0000006b]">
         © 2023 Develop by Group1. All Rights Reserved
       </h1>
     </div>
