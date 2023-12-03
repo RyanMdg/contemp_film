@@ -21,14 +21,14 @@ function hero() {
           the higher class corporates in any way he could.
         </p>
         <div className=" flex justify-center gap-5">
-          <ScrollLink
+          <a
             to="traillerSection"
             smooth={true}
             className="text-center hover:cursor-pointer hover:bg-[#D70000] hover:text-[#000] hover:font-bold uppercase text-[#D70000] border border-[#D70000] px-6 py-1 rounded-xl"
-            onClick={scrollToTrailler}
+            href="/movie"
           >
             Watch
-          </ScrollLink>
+          </a>
 
           <ScrollLink
             to="traillerSection"

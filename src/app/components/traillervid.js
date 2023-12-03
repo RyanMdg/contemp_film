@@ -17,7 +17,7 @@ function Traillervid() {
         Your browser does not support the video tag.
       </video>
 
-      <article className=" grid gap-5 sm:grid-cols-2 lg:mx-[10rem] ">
+      <article className=" text-[1.2rem] grid gap-5 sm:grid-cols-2 lg:mx-[10rem] ">
         <p className="text-[#d9d9d9c8] mt-5 ps-10">
           News outlets report the collapse of a structure in a construction
           site. Many workers are found dead and injured on the scene. Andres,
@@ -42,6 +42,14 @@ function Traillervid() {
           </span>
         </p>
       </article>
+      <a
+        to="traillerSection"
+        smooth={true}
+        className="text-center my-6 hover:cursor-pointer hover:bg-[#D70000] hover:text-[#000] hover:font-bold uppercase text-[#D70000] border border-[#D70000] text-[2rem] max-sm:text-[1rem] px-6 py-1 rounded-xl"
+        href="/movie"
+      >
+        Watch now!
+      </a>
     </div>
   );
 }

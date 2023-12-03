@@ -4,7 +4,7 @@ import Navbar from "../src/app/components/navbar";
 import Hero from "../src/app/components/hero";
 import Trailler from "../src/app/components/traillervid";
 import Footer from "../src/app/components/footer";
-import Cast from "../src/app/components/cast";
+// import Cast from "../src/app/components/cast";
 
 function index() {
   return (
@@ -12,7 +12,7 @@ function index() {
       <Navbar />
       <Hero />
       <Trailler />
-      <Cast />
+      {/* <Cast /> */}
       <Footer />
     </div>
   );
